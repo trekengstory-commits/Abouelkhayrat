@@ -1,0 +1,49 @@
+# dependencies
+node_modules
+/.pnp
+.pnp.*
+
+# next.js
+/.next/
+/out/
+.next-verify/
+
+# production
+/build
+
+# أسرار — لا تُرفع إطلاقًا
+.env*
+!.env.example
+
+# سجلات وملفات تشغيل محلية
+*.log
+server.log
+
+# ملفات اعتماد Git المؤقتة
+.gitcred
+.git-credentials
+
+# مجلدات بيئة العمل المحلية (ليست جزءًا من المشروع)
+/download/
+/upload/
+/db/
+/examples/
+/tests/
+/scripts/
+/skills/
+/.zscripts/
+/agent-ctx/
+/.agent*
+
+# أدوات
+*.tsbuildinfo
+next-env.d.ts
+.vercel
+.claude
+.z-ai-config
+local-*
+prompt
+test
+# بيئة العمل المحلية (بوابة/خدمات مصغّرة) — ليست جزءًا من المشروع
+/Caddyfile
+/mini-services/
